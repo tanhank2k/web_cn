@@ -1,0 +1,135 @@
+.background-style{
+    background-image: url("../background.jpg");
+    background-size: cover;
+}
+.font-1{
+    font-family: Myriad Pro;
+    font-size: 25pt;
+}
+.font-2{
+    font-family:  Myriad Pro;
+    color: #5790dc;
+    float: left;
+    font-size: 130%;
+    font-style: italic;
+
+}
+.font-3{
+    font-family: Myriad Pro thin;
+    font-size: 13pt;
+    line-height: 1.5;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.font-4 {
+    font-family: Myriad Pro;
+    font-size: 9pt;
+    color: #a5a5a5
+}
+
+.font-5{
+    text-align: left;
+    font-family: Myriad Pro;
+    font-size: 13pt;
+    line-height: 2;
+}
+
+.font-6{
+    text-align: left;
+    font-family: Myriad Pro;
+    font-size: 9pt;
+    margin-bottom: auto;
+    margin-top: auto;;
+}
+
+
+.button-1{
+    background-image: linear-gradient(#5c97df,#9dddff);
+    border-radius: 30px;
+    width: 100%;
+    font-size: small;
+    line-height: 1.3;
+    font-family: Myriad Pro;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+
+}
+.button-1::after{
+    content: '';
+    display: block;
+    background-image: radial-gradient(ellipse, #d9d9d9,#fff);
+    height: 20%;
+    width: 80%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 10%;
+    border-radius: 50%;
+
+
+}
+.button-2{
+    background-image: linear-gradient(#9dddff,#5c97df);
+    border-radius: 30px;
+    width: 100%;
+    font-size: small;
+    line-height: 1.3;
+    font-family: Myriad Pro;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-2::after{
+    content: '';
+    display: block;
+    background-image: radial-gradient(ellipse, #d9d9d9,#fff);
+    height: 40%;
+    width: 80%;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 10%;
+    border-radius: 50%;
+
+
+}
+.font-button{
+    font-size: large;
+}
+.box-1{
+    border: #fff solid;
+    border-radius: 5px;
+    border-top: #a5a5a5 solid;
+    border-left: #a5a5a5 solid;
+    background-color: #eaeaea;
+    opacity: 0.7;
+}
+
+.box-1::after{
+content: '';
+display: block;
+height: 20px;
+width: 15px;
+background-color: #eaeaea;
+border-left: 2px #a5a5a5 solid;
+/* border-top: 2px #a5a5a5 solid; */
+transform: skewY(-50deg);
+margin-bottom: -12px;
+margin-left: 97%;  
+}
+.arrow-2{
+    float: left;
+    margin-top: -15%;
+}
+
+.footer{
+    background-image: linear-gradient(to bottom, #3a3a3a,#8a8a88,#8a8a88 );
+   
+
+}
+.footer-1{
+    background-image:linear-gradient(to right, #3a3a3a,#8a8a8a,#3a3a3a );
+   
+
+}
